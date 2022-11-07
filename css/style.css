@@ -1,0 +1,27 @@
+/* 
+!  Універсальний - *
+!  тега - a
+!  id - #hero-header
+!  class - .header-btn
+!  атрибут - [type], [type="button"]
+!  дочірній - .header-logo > img (для 'img' тільки в класі що зверху)
+!  нащадка - .header a (до всіх 'а' всередині та глибше)
+*/
+
+body {
+  font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+/* @font-face {
+  font-family: "Web font";
+  src: url("../fonts/");
+  font-weight: 600;
+} */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
